@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>practical 5</title>
+<style>
+table#t01, th, td{
+	border: 3px solid black;
+}
+table#t02 th, td{
+    padding: 3px;
+}
+</style>
+</head>
+<body>
+	<table style="width:70%; height: 95%;font-family:Georgia;" align="center" id="t01">
+		<tr bgcolor="#f0b27a">
+			<th colspan="2">
+				<div>
+					Name: Pranav Devani<br>
+					ID. No.: 18CE022
+				</div>
+			</th>			
+		</tr>
+		<tr>
+		
+			<td height=530 bgcolor="#2e86c1">
+				<p align="center"><b style="font-size:xx-large;">Registration Form</b><br></p>
+				<form action="practical5.php" method="post">
+					<table align="center">
+						<tr align="center">
+							<td>
+								<label for="FN">First Name:</label>
+							</td>
+							<td>
+								<input type="text" name="FirstName" id="FN" style="width:100%;" placeholder="First Name" required>
+							</td>
+						</tr>
+						<tr align="center">
+							<td>
+								<label for="LN">Last Name:</label>
+							</td>
+							<td>
+								<input type="text" name="LastName" id="LN" style="width:100%;" placeholder="Last Name" required>
+							</td>
+						</tr>
+						<tr align="center">
+							<td>
+								<label>Gender:</label>
+							</td>
+							<td>
+								<label for="male">Male</label>
+								<input type="radio" name="gender" value="m" id="male"  required>
+								
+								<label for="female">Female</label>
+								<input type="radio" name="gender" value="f" id="female" required>
+								
+								<label for="other">Other</label>
+								<input type="radio" name="gender" value="o" id="other" required>
+							</td>
+						</tr>
+						<tr align="center">
+							<td>
+								<label for="dob">Date Of Birth:</label>
+							</td>
+							<td>
+								<input type="date" name="date" style="width:100%;" id="dob">
+							</td>
+						</tr>
+						<tr align="center">
+							<td>
+								<label for="city">City:</label>
+							</td>
+							<td>
+								<select name="city" id="city" style="width:100%;" required>
+									<option value="Rajkot">Rajkot</option>
+									<option value="Vadodara">Vadodara</option>
+									<option value="Delhi">Delhi</option>
+									<option value="Bhopal">Bhopal</option>
+									<option value="Mumbai">Mumbai</option>
+									<option value="Bangalore">Bangalore</option>
+									<option value="Hyderabad">Hyderabad</option>
+									<option value="Kanpur">Kanpur</option>
+									<option value="Nagpur">Nagpur</option>
+									<option value="Ahmedabad">Ahmedabad</option>
+									<option value="Junagadh">Junagadh</option>
+									<option value="Pune">Pune</option>
+									<option value="Surat">Surat</option>
+									<option value="Jaipur">Jaipur</option>
+									<option value="Kolkota">Kolkota</option>
+									<option value="Channei">Channei</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="center">
+							<td>
+								<label for="state">State:</label>
+							</td>
+							<td>
+								<select name="state" id="state" style="width:100%;" required>
+									<option value="Gujarat">Gujarat</option>
+									<option value="Maharastra">Maharastra</option>
+									<option value="AndhraPradesh">Andhra Pradesh</option>
+									<option value="Goa">Goa</option>
+									<option value="Haryana">Haryana</option>
+									<option value="HimachalPradesh">Himachal Pradesh</option>
+									<option value="Karnataka">Karnataka</option>
+									<option value="Kerala">Kerala</option>
+									<option value="MadhyaPradesh">Madhya Pradesh</option>
+									<option value="Punjab">Punjab</option>
+									<option value="Rajasthan">Rajasthan</option>
+									<option value="Sikkim">Sikkim</option>
+									<option value="TamilNadu">TamilNadu</option>
+									<option value="Telangana">Telangana</option>
+									<option value="Tripura">Tripura</option>
+									<option value="Uttarakhand">Uttarakhand</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="center">
+							<td>
+								<label for="emailid">Email ID:</label> 
+							</td>
+							<td>
+								<input type="email" name="email" id="emailid" style="width:100%;" placeholder="Email ID" required>
+							</td>
+						</tr>
+						<tr align="center">
+							<td>
+								<label for="phoneNo">Phone No.:</label>
+							</td>
+							<td>
+								<input type="tel" name="phoneno" id="phoneNo" style="width:100%;" pattern="[0-9]{10}" placeholder="[0-9]{10}" required> 
+							</td>
+						</tr>
+						<tr align="center">
+							<td colspan="2">
+								<input type="submit" name="submit" value="submit">
+								<input type="reset" name="reset" value="reset">
+							</td>
+						</tr>
+					</table>
+				</form>
+			</td>
+		</tr>
+		<tr bgcolor="#f0b27a">
+			<td style="text-align:center;" colspan="2">CSPIT-CE</td>
+		</tr>
+	</table>
+</body>
+</html>

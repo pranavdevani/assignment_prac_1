@@ -1,0 +1,42 @@
+body{
+	background:grey;
+}
+
+.out{
+	padding:10px;
+	margin:20px;
+	background:white;
+}
+
+h1{
+	text-align:center;
+	color:white;
+	margin-bottom:20px;
+}
+
+table{
+	width:100%;
+	background:white;
+	color:white;
+	border:2px solid black;
+}
+
+.timg{
+	width:15%;
+	background:black;
+	padding:5px;
+}
+
+.tinfo{
+	width:85%;
+	background:gray;
+	padding:5px;
+	
+}
+
+img{
+
+	height:150px;
+	width:150px;
+}
+	
